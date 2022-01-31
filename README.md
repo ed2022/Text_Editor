@@ -1,14 +1,8 @@
 # Text_Editor
 
-## Your Task
+## Description
 
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
-
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
-
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
-
-You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
+This application is a text editor built to run in the browser. The text editor is single-page application that meets the PWA (Progressive Web Application)criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline. To find this application, you can use the heroku link down below. 
 
 ## User Story
 
@@ -18,7 +12,7 @@ I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
 ```
 
-## Acceptance Criteria
+## Criteria Provided By Client 
 
 ```md
 GIVEN a text editor web application
@@ -48,85 +42,47 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-## Mock-Up
 
-The following animation demonstrates the application functionality:
 
-![Demonstration of the finished Unit 19 Homework being used in the browser and then installed.](./Assets/00-demo.gif)
+
+
+
+## Technology Used for Development 
+- heroku 
+- webpack
+- service workers 
+- manifest 
+- indexedDb
+- javaScrip
+
+## Installation
+No installation required, please use heroku link down below. 
+
+## Navigation and Demo 
+- To see how it is done, please view the following video/gif of how to use this application since it is in the browser.
+
+The application functionality:
+
+![Demonstration the application being used in the browser and then installed.](./Assets/jate.gif)
 
 The following image shows the application's `manifest.json` file:
 
-![Demonstration of the finished Unit 19 Homework with a manifest file in the browser.](./Assets/01-manifest.png)
+![Manifest file in the browser](./Assets/manifest.png)
 
 The following image shows the application's registered service worker:
 
-![Demonstration of the finished Unit 19 Homework with a registered service worker in the browser.](./Assets/02-service-worker.png)
+![Registered service worker in the browser.](./Assets/servicew.png)
 
 The following image shows the application's IndexedDB storage:
 
-![Demonstration of the finished Unit 19 Homework with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
+![IndexedDB storage named 'jate' in the browser.](./Assets/indexed.png)
 
-## Grading Requirements
 
-This homework is graded based on the following criteria:
+## Resources 
+- [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide)
+- [webpack](https://webpack.js.org/)
+- Class Resources 
 
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
-
-  * The application works without an internet connection
-
-  * Automatically saves content inside the text editor when the DOM window is unfocused
-
-  * Bundled with webpack
-
-  * Create a service worker with workbox that Caches static assets
-
-  * The application should use babel in order to use async / await
-
-  * Application must have a generated `manifest.json` using the `WebpackPwaManifest` plug-in
-
-  * Can be installed as a Progressive Web Application
-
-### Deployment: 32%
-
-* Application deployed to Heroku at live URL with build scripts
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+## Links 
+- GitHub Repositor: https://github.com/ed2022/Text_Editor.git
+- Heroku Link: https://still-brushlands-87864.herokuapp.com/
